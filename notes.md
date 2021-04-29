@@ -13,3 +13,32 @@ _You need to set a fixed height_
 .component {
   text-overflow: ellipsis;
 }
+```
+
+
+## JS
+
+### Ternary If/Else
+```js
+a = 1
+b = 2
+
+c = a == 1 ? a : b
+```
+
+_without "else"_
+```js
+a = 1
+b = 2
+
+c = a == 1 && a
+```
+
+_just the "else"_
+```js
+a = 1
+b = 2
+
+c = a != 1 || b
+```
+
