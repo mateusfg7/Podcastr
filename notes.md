@@ -1,7 +1,9 @@
 # CSS
 ## Y-Scroll just to a component
+_You need to set a fixed height_
 ```css
 .component {
+  height: 100vh;
   overflow-y: scroll;
 } 
 ```
