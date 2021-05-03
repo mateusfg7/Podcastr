@@ -95,7 +95,7 @@ export function PlayerContextProvider({
         playPrevious,
         isPlaying,
         isLooping,
-        isShuffling
+        isShuffling,
         togglePlay,
         toggleLoop,
         toggleShuffle
