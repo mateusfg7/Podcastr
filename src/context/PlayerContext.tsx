@@ -55,7 +55,7 @@ export function PlayerContextProvider({
   }
 
   function toggleLoop() {
-    setIsLooping(!isPlaying);
+    setIsLooping(!isLooping);
   }
 
   function setPlayingState(state: boolean) {
