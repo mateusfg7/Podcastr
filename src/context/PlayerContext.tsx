@@ -13,7 +13,7 @@ type PlayerContextData = {
   currentEpisodeIndex: number;
   isPlaying: boolean;
   isLooping: boolean;
-  isShuffling: boolean
+  isShuffling: boolean;
   play: (episode: Episode) => void;
   playList: (list: Episode[], index: number) => void;
   playNext: () => void;
@@ -98,7 +98,7 @@ export function PlayerContextProvider({
         isShuffling,
         togglePlay,
         toggleLoop,
-        toggleShuffle
+        toggleShuffle,
         setPlayingState,
         hasNext,
         hasPrevious,
