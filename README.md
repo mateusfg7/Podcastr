@@ -63,3 +63,13 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+<br />
+<br />
+<br />
+
+<div align="center">
+
+[![Typescript](https://img.shields.io/badge/typescript-3178C6?&style=for-the-badge&logo=typescript&logoColor=fff)](https://www.typescriptlang.org/)[![React](https://img.shields.io/badge/React.js-61DAFB?&style=for-the-badge&logo=react&logoColor=000)](https://reactjs.org/)[![Next.js](https://img.shields.io/badge/Next.js-000?&style=for-the-badge&logo=next.js&logoColor=fff)](https://nextjs.org/)[![Sass](https://img.shields.io/badge/Sass-CC6699?&style=for-the-badge&logo=Sass&logoColor=fff)](https://sass-lang.com/)
+
+</div>
