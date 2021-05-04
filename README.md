@@ -4,7 +4,7 @@
 
 _Listen to the best episodes of the FalaDev podcast!_
 
-[Getting Started]() - [Docs]() - [My Notes]()
+[Getting Started](#getting-started) - [Docs](#docs) - [My Notes](notes.md)
 
 ![](.github/assets/app-preview.png)
 
