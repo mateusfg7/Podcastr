@@ -46,7 +46,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ### Episode Details: `/episodes/episode-slug`
 
-<img src=".github/assets/interna.png" width="800" alt="Episode Details Page Screenshot"/>
+<img src=".github/assets/Interna.png" width="800" alt="Episode Details Page Screenshot"/>
 
 
 ## Back-End
