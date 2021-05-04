@@ -19,6 +19,21 @@ _Listen to the best episodes of the FalaDev podcast!_
 
 # Getting Started
 
+_First you need to have [Node.js](https://nodejs.org/) and [Yarn Package Manager](https://yarnpkg.com/) installed._
+
+1. Install dependencies:
+```bash
+$ yarn install
+```
+2. Start fake server
+```bash
+$ yarn fake-server
+```
+3. Start next server:
+```bash
+yarn start
+```
+> Your server will be available on http://localhost:3000
 
 
 ---
