@@ -35,19 +35,24 @@ yarn start
 ```
 > Your server will be available on http://localhost:3000
 
-
----
-
+# Docs
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Pages
+### Home: `/`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<img src=".github/assets/home.png" width="800" alt="Home Page Screenshot"/>
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### Episode Details: `/episodes/episode-slug`
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+<img src=".github/assets/interna.png" width="800" alt="Episode Details Page Screenshot"/>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+
+## Back-End
+
+The fake server use the package [json-server](https://www.npmjs.com/package/json-server) to start a back-end server for development. The data of this back-end is on [`server.json`](server.json) file.6
+
+To use other back-end server, change the `baseURL` on [`src/services/api.ts`](src/services/api.ts) with your back-end server url.
 
 ## Learn More
 
@@ -57,9 +62,3 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
