@@ -16,6 +16,7 @@ _Listen to the best episodes of the FalaDev podcast!_
 >
 > - prof.: [Diego Fernandes](http://github.com/diego3g)
 > - date: 19/04/2021 - 23/04/2021
+> - layout: [_Figma Copy Link_](https://www.figma.com/file/UwFEntsHpHYJlHNQAQr4gA/Podcastr/duplicate)
 
 # Getting Started
 
