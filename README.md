@@ -30,9 +30,9 @@ $ yarn install
 ```bash
 $ yarn fake-server
 ```
-3. Start next server:
+3. Start Next dev server:
 ```bash
-yarn start
+yarn dev
 ```
 > Your server will be available on http://localhost:3000
 
@@ -51,7 +51,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Back-End
 
-The fake server use the package [json-server](https://www.npmjs.com/package/json-server) to start a back-end server for development. The data of this back-end is on [`server.json`](server.json) file.6
+The fake server use the package [json-server](https://www.npmjs.com/package/json-server) to start a back-end server for development. The data of this back-end is on [`server.json`](server.json) file.
 
 To use other back-end server, change the `baseURL` on [`src/services/api.ts`](src/services/api.ts) with your back-end server url.
 
